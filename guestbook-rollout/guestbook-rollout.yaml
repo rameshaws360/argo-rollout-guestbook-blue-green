@@ -62,12 +62,11 @@ kind: Ingress
 metadata:
   name: guestbook-ui-ingress
   namespace: default
-  annotations:
-    kubernetes.io/ingress.class: "nginx"
 spec:
   ingressClassName: nginx
   rules:
-    - http:
+    - host: guestbook.example.com
+      http:
         paths:
           - path: /
             pathType: Prefix
