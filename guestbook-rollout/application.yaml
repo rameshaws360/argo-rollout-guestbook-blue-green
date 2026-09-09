@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/crazylearning-cr/argo-rollout-guestbook-blue-green.git
+    repoURL: https://github.com/rameshaws360/argo-rollout-guestbook-blue-green.git
     path: guestbook-rollout
     targetRevision: HEAD
   destination:
